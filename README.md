@@ -13,35 +13,11 @@ Original author is [Magnus Erik Hvass Pedersen](http://www.hvass-labs.org)
 
 ## Tutorials
 
-1. Simple Linear Model ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/01_Simple_Linear_Model.ipynb))
+1. CIFAR-10 ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/06_CIFAR-10.ipynb))
 
-2. Convolutional Neural Network ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/02_Convolutional_Neural_Network.ipynb))
+2. DeepDream ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/14_DeepDream.ipynb))
 
-3. Pretty Tensor ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/03_PrettyTensor.ipynb))
-
-4. Save & Restore ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/04_Save_Restore.ipynb))
-
-5. Ensemble Learning ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/05_Ensemble_Learning.ipynb))
-
-6. CIFAR-10 ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/06_CIFAR-10.ipynb))
-
-7. Inception Model ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/07_Inception_Model.ipynb))
-
-8. Transfer Learning ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/08_Transfer_Learning.ipynb))
-
-9. Video Data ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/09_Video_Data.ipynb))
-
-10. Not available yet. Please [support this issue](https://github.com/tensorflow/tensorflow/issues/5036) on GitHub so we can get it done!
-
-11. Adversarial Examples ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/11_Adversarial_Examples.ipynb))
-
-12. Adversarial Noise for MNIST ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/12_Adversarial_Noise_MNIST.ipynb))
-
-13. Visual Analysis ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/13_Visual_Analysis.ipynb))
-
-14. DeepDream ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/14_DeepDream.ipynb))
-
-15. Style Transfer ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/15_Style_Transfer.ipynb))
+3. Style Transfer ([Notebook](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/15_Style_Transfer.ipynb))
 
 16. MyDeepDreamCode ([Notebook] - contains the modified code with an interactive UI to tweak different parameters and run the DeepDream)
 
@@ -57,29 +33,6 @@ bug-fixes, improvements, or because code-sections are moved to separate files fo
 If you want to see the exact versions of the source-code that were used in the YouTube videos,
 then you can [browse the history](https://github.com/Hvass-Labs/TensorFlow-Tutorials/commits/master)
 of commits to the GitHub repository.
-
-## Installation
-
-Some of the Python Notebooks use source-code located in different files to allow for easy re-use
-across multiple tutorials. It is therefore recommended that you download the whole repository
-from GitHub, instead of just downloading the individual Python Notebooks.
-
-### Git
-
-The easiest way to download and install these tutorials is by using git from the command-line:
-
-    git clone https://github.com/Hvass-Labs/TensorFlow-Tutorials.git
-
-This will create the directory `TensorFlow-Tutorials` and download all the files to it.
-
-This also makes it easy to update the tutorials, simply by executing this command inside that directory:
-
-    git pull
-
-### Zip-File
-
-You can also [download](https://github.com/Hvass-Labs/TensorFlow-Tutorials/archive/master.zip)
-the contents of the GitHub repository as a Zip-file and extract it manually.
 
 ## Requirements
 

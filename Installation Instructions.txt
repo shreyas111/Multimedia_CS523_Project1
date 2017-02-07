@@ -1,0 +1,34 @@
+### How to Install
+
+In order to run this notebook, the pre-requisite is to have Python>=3.5 and Anaconda installed in your machine with tensorflow installed in one of the activated environments. Please follow the below instructions to install Anaconda and TensorFlow in it:
+
+1. Install Anaconda. (https://www.continuum.io/downloads)
+
+2. Create a conda environment. 
+    For windows machine, please open Command Prompt in Admin mode and write the following commands:
+    
+    conda create --name <ENVIRONMENT_NAME> python=<PYTHONVERSION>
+    
+    Note: Please create a new environment instead of using any old environments
+   
+3. Activate the conda environment :
+
+    activate <ENVIRONMENT_NAME>
+
+4. Now install TensorFlow in it (CPU-version): 
+
+    conda install -c conda-forge tensorflow
+
+5 . After the install you will activate the conda environment each time you want to use TensorFlow.
+
+Once you have installed Anaconda, activated the enviroment and isntalled tensorflow in it, follow the below isntructions for Jupyter Notebook:
+
+1. Download the repo : git clone https://github.com/shreyas111/Multimedia_CS523_Project1.git
+
+2. Run the below commands to get the necessary dependencies for running the project:
+    conda install scikit-learn
+    conda install jupyter matplotlib scipy pillow
+    
+3. Now install pretty tensor
+    pip install tensorflow prettytensor
+

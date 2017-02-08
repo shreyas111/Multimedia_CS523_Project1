@@ -40,10 +40,14 @@ Modified Codes Files For Style Tansfer by us:
 
     Each folder has the following: 
 
-    a. Original Content Image as Content.jpg  
+    a. Original Content Image as Content.jpg
+    
     b. Original Style image as Style.jpg
+    
     c. Mixed Image Generated: Mixed.jpg
+    
     d. Mixed Image after every 10 iteration as mixedi.jpg where i is the iteration number for which the mixed image was generated.
+    
     e. A ParametersPassed.txt which has the style transfer program name used for generating the output images. Also the parameters for          which the program was run.  
 
 

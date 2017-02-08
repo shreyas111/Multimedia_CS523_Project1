@@ -33,6 +33,18 @@ Modified Codes Files For Style Tansfer by us:
 8. Style_Transfer_Without_Calculating_Denoising_Loss
 9. Style_Transfer_Without_Style_Loss
 
+## Outputs:
+1. DeepDream:Outputs For Style Transfer Are in: Images/DeepDream Different Outputs
+2. Style Transfer: Outputs for Style Transfer are in: Images/outputs_StyleTransfer
+For style transfer each output is in a separate folder in Images/outputs_StyleTransfer. 
+
+Each folder has the following: 
+
+a. Original Content Image as Content.jpg  
+b. Original Style image as Style.jpg
+c. Mixed Image Generated: Mixed.jpg
+d. Mixed Image after every 10 iteration as mixedi.jpg where i is the iteration number for which the mixed image was generated.
+e. A ParametersPassed.txt which has the style transfer program name used for generating the output images. Also the parameters for which the program was run.  
 
 
 ## Videos

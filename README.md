@@ -21,6 +21,20 @@ Original author is [Magnus Erik Hvass Pedersen](http://www.hvass-labs.org)
 
 16. MyDeepDreamCode ([Notebook] - contains the modified code with an interactive UI to tweak different parameters and run the DeepDream)
 
+Modified Codes Files For Style Tansfer by us:
+
+1. Style_Transfer_Averaging_Total_Loss_By_No_Of_Loss
+2. Style_Transfer_Calculating_Style_Loss_Before_Content_Loss
+3. Style_Transfer_Changing_Style_Content_Layer_Value
+4. Style_Transfer_HTML_Inputs_From_User
+5. Style_Transfer_Modifying_Function_ For_Denoising_Image_By_Shifting_By_50_Pixels
+6. Style_Transfer_Saving_Input_Output_Images
+7. Style_Transfer_Saving_Mixed_Image_Every_10_Iterations
+8. Style_Transfer_Without_Calculating_Denoising_Loss
+9. Style_Transfer_Without_Style_Loss
+
+
+
 ## Videos
 
 These tutorials are also available as [YouTube videos](https://www.youtube.com/playlist?list=PL9Hr9sNUjfsmEu1ZniY0XpHSzl5uihcXZ).

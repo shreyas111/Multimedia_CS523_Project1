@@ -1,0 +1,16 @@
+Program Called: Style_Transfer_Changing_Style_And_Content_Layer_Values.ipynb
+
+Parameters To the Style Transfer Program:
+
+Content layers: ['conv3_1/conv3_1']
+Content Layers: [4]
+
+Style layers: ['conv1_2/conv1_2', 'conv4_1/conv4_1', 'conv4_2/conv4_2']
+Style Layers: [1, 7, 8]
+
+Weight Content: 1.5
+Weight Style: 10.0
+Weight Denoise: 0.3
+Number of Iterations: 200
+Step Size: 10.0
+

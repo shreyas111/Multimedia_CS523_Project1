@@ -1,0 +1,27 @@
+Program Used:Style_Transfer_Averaging_Total_Loss_By_No_Of_Loss.ipynb
+
+Content layers:
+['conv3_1/conv3_1']
+Content Layers: [4]
+
+Style layers:
+['conv1_1/conv1_1', 'conv1_2/conv1_2', 'conv2_1/conv2_1', 'conv2_2/conv2_2', 'conv3_1/conv3_1', 'conv3_2/conv3_2', 'conv3_3/conv3_3', 'conv4_1/conv4_1', 'conv4_2/conv4_2', 'conv4_3/conv4_3', 'conv5_1/conv5_1', 'conv5_2/conv5_2', 'conv5_3/conv5_3']
+Style Layers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+Weight Content: 1.5
+Weight Style: 10.0
+Weight Denoise: 0.3
+Number of Iterations: 200
+Step Size: 10.0
+
+loss_combined = weight_content * adj_content * loss_content + \
+                    weight_style * adj_style * loss_style + \
+                    weight_denoise * adj_denoise * loss_denoise
+            
+loss_combined = loss_combined/3
+
+def create_denoise_loss(model):
+    loss = tf.reduce_sum(tf.abs(model.input[:,2:,:,:] - model.input[:,:-2,:,:])) + \
+           tf.reduce_sum(tf.abs(model.input[:,:,2:,:] - model.input[:,:,:-2,:]))
+
+    return loss

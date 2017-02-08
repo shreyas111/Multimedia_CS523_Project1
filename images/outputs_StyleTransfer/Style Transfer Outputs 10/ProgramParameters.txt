@@ -1,0 +1,23 @@
+Program Used: Style_Transfer_Modifying_Function_ For_Denoising_Image_By_Shifting_By_50_Pixels.ipynb
+
+Content layers:
+['conv3_1/conv3_1', 'conv3_3/conv3_3']
+Content Layers: [4, 6]
+
+Style layers:
+['conv1_1/conv1_1', 'conv1_2/conv1_2', 'conv2_1/conv2_1', 'conv2_2/conv2_2', 'conv3_1/conv3_1', 'conv3_2/conv3_2', 'conv3_3/conv3_3', 'conv4_1/conv4_1', 'conv4_2/conv4_2', 'conv4_3/conv4_3', 'conv5_1/conv5_1', 'conv5_2/conv5_2', 'conv5_3/conv5_3']
+Style Layers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+
+Weight Content: 1.5
+Weight Style: 10.0
+Weight Denoise: 0.3
+Number of Iterations: 150
+Step Size: 10.0
+
+Calculation the image denoise loss by  shifting the image by 50 pixels in each axis separately and then finiding the difference between the original image. Taking the absolute value and sum over the images in pixels in the image.
+
+def create_denoise_loss(model):
+    loss = tf.reduce_sum(tf.abs(model.input[:,50:,:,:] - model.input[:,:-50,:,:])) + \
+           tf.reduce_sum(tf.abs(model.input[:,:,50:,:] - model.input[:,:,:-50,:]))
+
+    return loss
